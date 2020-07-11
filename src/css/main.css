@@ -1,0 +1,65 @@
+body {
+    background-color: #1B1E2B !important;
+    font-family: Consolas, 'Courier New', monospace;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    margin-top: 3%;
+}
+
+.knowledge {
+    margin-top: 5%;
+}
+
+.projects {
+    margin-top: 5%;
+    background-color: #1B1E2B;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.projects li {
+    font-size: 24px;
+    list-style-type: none;
+    color: #80CBC4;
+    text-shadow: 1px 1px 2px black;
+}
+
+.projects ul {
+    color: #ACADB4;
+    width: 600px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.codeicons i {
+    color: #292D3E;
+    font-size: 45px;
+    margin-right: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+.unselectable {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none
+}
