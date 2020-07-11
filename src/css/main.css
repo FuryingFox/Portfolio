@@ -26,12 +26,12 @@ body {
 .projects li {
     font-size: 24px;
     list-style-type: none;
-    color: #80CBC4;
+    color: #292D3E;
     text-shadow: 1px 1px 2px black;
 }
 
 .projects ul {
-    color: #ACADB4;
+    color: #292D3E;
     width: 600px;
     text-shadow: 1px 1px 2px black;
 }
@@ -50,7 +50,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: white;
+    color: #ACADB4;
 }
 
 
