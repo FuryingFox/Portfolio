@@ -23,9 +23,6 @@ if (checkBox.checked == true){
     body.classList.remove('bodydark')
     document.getElementById("logo").src = "src/img/icon_light.png";
 
-    localStorage.setItem("changetheme", checkBox.checked)
-}
-}     
-
-
+    localStorage.setItem("changetheme", checkBox.checked)}
+} 
 
