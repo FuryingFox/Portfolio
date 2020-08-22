@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fox</title>
     <link rel="stylesheet" href="src/css/main.css">
-    <link rel="shortcut icon" href="src/img/download.png" type="image/png">
+    <link rel="shortcut icon" href="src/img/icon_light.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css">
+    <script type="text/javascript" src="src/js/index.js"></script>
 </head>
-<body>
-    <div class="top center"><a href="https://github.com/FuryingFox"><img src="src/img/download.png"></a></div>
+<body id="body" class="bodylight">
+    <div class="top center"><a href="https://github.com/FuryingFox"><img id="logo" src="src/img/icon_light.png"></a></div>
     <div class="knowledge center codeicons col-xs-12 unselectable">
         <i class="icon-nodejs" data-toggle="tooltip" data-placement="top" title="" data-original-title="NodeJS"></i>
         <i class="icon-python" data-toggle="tooltip" data-placement="top" title="" data-original-title="Python"></i>
@@ -20,13 +21,14 @@
     </div>
     <div class="projects center">
         <ul>
-            <a href="https://github.com/FuryingFox/HastebinBot"><li>HastebinBot</li></a>
+            <a class="alight" href="https://github.com/FuryingFox/HastebinBot"><li>HastebinBot</li></a>
             Lightweight bot written using the discord.py api wrapper for the discord api that uploads input to hastebin.
-            <a href="https://github.com/FuryingFox/WesselBoat"><li>WesselBoat</li></a>
+            <a class="alight" href="https://github.com/FuryingFox/WesselBoat"><li>WesselBoat</li></a>
             General discord bot written using the discord.js api wrapper for discord.
-            <a href="https://github.com/FuryingFox/furyingfox.xyz"><li>furyingfox.xyz</li></a>
+            <a class="alight" href="https://github.com/FuryingFox/furyingfox.xyz"><li>furyingfox.xyz</li></a>
             My own personal portfolio site which you are currently on.
         </ul>
     </div>
+    <footer class="themebtn center"><button id="changetheme">Want it ¯\_(ツ)_/¯ dark?</button></footer>
 </body>
 </html>

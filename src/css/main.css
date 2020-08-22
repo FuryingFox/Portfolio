@@ -1,5 +1,10 @@
-body {
+.bodydark {
     background-color: #1B1E2B !important;
+    font-family: Consolas, 'Courier New', monospace;
+}
+
+.bodylight {
+    background-color: #4E5576 !important;
     font-family: Consolas, 'Courier New', monospace;
 }
 
@@ -18,7 +23,6 @@ body {
 
 .projects {
     margin-top: 5%;
-    background-color: #1B1E2B;
     border-radius: 3px;
     width: 100%;
 }
@@ -44,7 +48,11 @@ body {
     text-shadow: 1px 1px 2px black;
 }
 
-a {
+.alight {
+    color: #ACADB4;
+}
+
+.adark {
     color: #1B1E2B;
 }
 
@@ -52,8 +60,6 @@ a:hover {
     text-decoration: underline;
     color: #ACADB4;
 }
-
-
 
 .unselectable {
     user-select: none;
