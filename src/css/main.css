@@ -63,7 +63,9 @@
 }
 
 .adark {
-  color: #1B1E2B;
+  color: #ACADB4;
+  text-decoration: underline;
+  text-decoration-color: #1B1E2B;
 }
 
 .plight {
@@ -72,8 +74,8 @@
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #ACADB4;
+  text-decoration: underline;
+  text-decoration-color: #ACADB4;
 }
 
 .unselectable {
