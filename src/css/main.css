@@ -30,8 +30,11 @@
 .projects li {
     font-size: 24px;
     list-style-type: none;
-    color: #ACADB4;
     text-shadow: 1px 1px 2px black;
+}
+
+.lightcolor {
+  color: #DA4A34;
 }
 
 .projects ul {
@@ -41,19 +44,31 @@
 }
 
 
-.codeicons i {
+.codeiconsdark i {
     color: #ACADB4;
     font-size: 45px;
     margin-right: 20px;
     text-shadow: 1px 1px 2px black;
 }
 
+.codeiconslight i {
+  color: #D5AE4D;
+  font-size: 45px;
+  margin-right: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
 .alight {
-    color: #ACADB4;
+  color: #DA4A34;
 }
 
 .adark {
-    color: #1B1E2B;
+  color: #1B1E2B;
+}
+
+.plight {
+  color: #D5AE4D;
+  text-shadow: 1px 1px 2px black;
 }
 
 a:hover {
@@ -93,7 +108,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #D5AE4D;
     -webkit-transition: .4s;
     transition: .4s;
   }
