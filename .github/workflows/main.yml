@@ -13,4 +13,4 @@ jobs:
       with:
         ftp-server: ftp://ftp.domeneshop:21.no/www/
         ftp-username: furyingfox
-        ftp-password: Saldo-Gud-trio-vipp-2222
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
