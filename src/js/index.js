@@ -1,4 +1,4 @@
-window.onload = function(){ 
+window.onload = function() { 
     var checkBox = document.getElementById("changetheme");
     var checked = JSON.parse(localStorage.getItem('changetheme'));
     document.getElementById("changetheme").checked = checked;
